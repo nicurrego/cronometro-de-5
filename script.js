@@ -9,7 +9,7 @@ let hours = 0;
 let interval;
 
 startButton.addEventListener('click', () => {
-  if (true) {
+  if (!interval) { //al agregar esta parte se confirma que no exista un intervalo iniciado, evitando el accionar mas de una vez el cronometro.
     startCronometro();
   }
 });
