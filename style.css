@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  justify-content: center;
+
+}
+.carcasa{
+  display: flex;
+  background-color: teal;
+  width: 500px;
+  justify-content: space-around;
+  margin: 0 5px;
+  box-sizing: border-box;
+  font-size: 80px;
+}
+p{
+  font-size: 20px;
+}
+.carcasa div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
